@@ -1,0 +1,66 @@
+/* Global styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the body element */
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the person image */
+.person-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#pImage{
+  position: absolute;
+}
+/* Styles for the background image */
+.bg-img {
+  z-index: -1;
+}
+/* Styles for the submit button */
+input[type="submit"] {
+  padding: 5px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for input elements */
+input {
+  cursor: pointer;
+}
+
+/* Styles for the image wrapper */
+.image-wrapper {
+  position: relative;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Styles for select and button elements */
+select,
+button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
